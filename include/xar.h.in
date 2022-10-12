@@ -76,7 +76,7 @@ struct xar_header_ex { /* Only used when cksum_alg == XAR_CKSUM_OTHER */
 typedef struct xar_header xar_header_t;
 typedef struct xar_header_ex xar_header_ex_t;
 
-#define XAR_HEADER_MAGIC 0x6c585152
+#define XAR_HEADER_MAGIC 0x6c586152
 #define XAR_EA_FORK "ea"
 
 #define XAR_CKSUM_NONE   0
